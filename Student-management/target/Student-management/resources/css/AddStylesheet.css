@@ -1,0 +1,117 @@
+@charset "ISO-8859-1";
+
+ .image {	
+ 
+	background-image: url(" /Student-management/images/BackGrounds.jpg"); 
+	
+	/* Center and scale the image nicely */
+	background-position:top,center,center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+    height:100%;
+}
+.container
+{
+	position: absolute;
+	top:10%;
+	left:35%;
+	width:400px;
+	height:400px;
+	background: #20B2AA;
+	padding: 30px 20px;
+	overflow: hidden;
+}
+ label
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding : 0 , 0 , 20px;
+}
+p
+{
+	margin-left:5px;
+}
+.box
+{
+	width: 55%;
+    padding: 8px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid thick white;
+    border-radius: 4px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.btn-danger
+{
+	color:#fff;
+	background-color:#dc3545;
+	border-color:#dc3545;
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 35%;
+    height:43px;
+    border-radius: 4px;
+    margin:20px;
+}
+.btn-danger:hover
+{
+	color:#fff;
+	background-color:#bb2d3b;
+	border-color:#b02a37;
+}
+.btn-danger:focus
+{
+	color:#fff;
+	background-color:#bb2d3b;
+	border-color:#b02a37;
+	box-shadow:0 0 0 .25rem rgba(225,83,97,.5);
+}
+.Error
+{
+	color:red;
+    position: absolute;
+	top:33%;
+	left:6%;
+	width:400px;
+	height:400px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.error
+{
+	color:red;
+    position: absolute;
+	top:49%;
+	left:13%;
+	width:400px;
+	height:400px;
+    font-family:Helvetica;
+    font-size: 14px;
+    overflow: hidden;
+}
+.errors
+{
+    color:red;
+    position: absolute;
+	top:66%;
+	left:10%;
+	width:400px;
+	height:400px;
+    font-family:Helvetica;
+    font-size: 14px;	
+    overflow: hidden;
+}
